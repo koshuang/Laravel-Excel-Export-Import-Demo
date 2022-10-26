@@ -19,6 +19,17 @@ class UserSeeder extends Seeder
             $data[] = [
                 'name'              => $faker->name(),
                 'email'             => $faker->unique()->safeEmail(),
+                'field1'              => $faker->text(),
+                'field2'              => $faker->text(),
+                'field3'              => $faker->text(),
+                'field4'              => $faker->text(),
+                'field5'              => $faker->text(),
+                'field6'              => $faker->text(),
+                'field7'              => $faker->text(),
+                'field8'              => $faker->text(),
+                'field9'              => $faker->text(),
+                'field10'              => $faker->text(),
+
                 'password'          => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
             ];
         }

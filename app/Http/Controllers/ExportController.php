@@ -28,7 +28,7 @@ class ExportController extends Controller
 
     public function excel()
     {
-        return Excel::download(new UsersExport, 'users.csv');
+        return Excel::download(new UsersExport(), 'users.csv');
     }
 
     public function spatie()
